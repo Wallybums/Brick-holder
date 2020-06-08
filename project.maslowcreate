@@ -8,6 +8,35 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.3484626647144949,
+            "y": 0.9404761904761906,
+            "uniqueID": 690805,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": "true"
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -16,5 +45,7 @@
         }
     ],
     "allConnectors": [],
-    "fileTypeVersion": 1
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
+    "circleSegmentSize": 2
 }
