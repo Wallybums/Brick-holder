@@ -8,33 +8,20 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.3484626647144949,
-            "y": 0.9404761904761906,
-            "uniqueID": 690805,
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.19546120058565156,
+            "y": 0.38888888888888884,
+            "uniqueID": 570005,
             "ioValues": [
                 {
-                    "name": "tool size",
-                    "ioValue": 6.35
-                },
-                {
-                    "name": "passes",
-                    "ioValue": 6
-                },
-                {
-                    "name": "speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "tabs",
-                    "ioValue": "true"
-                },
-                {
-                    "name": "safe height",
-                    "ioValue": 6
+                    "name": "number",
+                    "ioValue": 10
                 }
-            ]
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
         },
         {
             "atomType": "Output",
